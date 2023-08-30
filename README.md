@@ -35,6 +35,19 @@ Answer the following question: How well does the logistic regression model predi
 
 #  Results
 
+![Screenshot 2023-08-30 080403](https://github.com/Jeremy-Mallory/credit-risk-classification/assets/122320256/9d7d05c2-3661-44dc-88da-6a4653e74f46)
+
 The logistic regression model was 95% accurate according to the balanced accuracy score. However, the confusion matrix shows that the data is very imbalanced. There are a lot more healthy loans than there are high risk loans. The classification report reveals that the model is 100% accurate predicting healthy loans but only 85% accurate when predicting high-risk loans.
+
+To rectify this issue, a random over-sampler was used in the next iteration of the model.
+
+
+![Screenshot 2023-08-30 080455](https://github.com/Jeremy-Mallory/credit-risk-classification/assets/122320256/2608ad7f-4d55-4a41-9a62-7bcc6ac2e51e)
+
+
+The model fit with oversampled data was 99% accurate as opposed to 95% previously. The oversampled model seems to be better at correctly classifying high risk loans as evidenced by the recall score which was originally 0.91, now 0.99.
+
+![Screenshot 2023-08-30 080556](https://github.com/Jeremy-Mallory/credit-risk-classification/assets/122320256/8d780477-fcd9-48af-a223-02a73a5bab9c)
+
 
 # Summary
