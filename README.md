@@ -1,17 +1,17 @@
-#Background
+#  Background
 
 
 In this Challenge various techniques were used to train and evaluate a model based on loan risk. The dataset consists of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
-#Instructions
+#  Instructions
 
 
 1. Split the Data into Training and Testing Sets
 
 
--Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
+-  Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
 
--Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
+-  Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
 
 NOTE
 A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
