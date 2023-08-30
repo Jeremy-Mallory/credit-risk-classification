@@ -35,4 +35,6 @@ Answer the following question: How well does the logistic regression model predi
 
 #  Results
 
+The logistic regression model was 95% accurate according to the balanced accuracy score. However, the confusion matrix shows that the data is very imbalanced. There are a lot more healthy loans than there are high risk loans. The classification report reveals that the model is 100% accurate predicting healthy loans but only 85% accurate when predicting high-risk loans.
+
 # Summary
